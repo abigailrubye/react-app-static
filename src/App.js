@@ -1,5 +1,7 @@
 import './App.css';
-import Sidebar from './components/Sidebar';
+import Header from './components/header';
+import Content from './components/content';
+import Footer from './components/footer';
 
 function App() {
   return (
