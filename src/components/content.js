@@ -1,7 +1,19 @@
 function Content() {
+  const mainStyle = {
+    backgroundColor: "#ffe4f0", // soft pink
+    padding: "25px",
+    fontFamily: "Arial, sans-serif",
+    color: "#444",
+    lineHeight: "1.6",
+  };
+
+  const paragraphStyle = {
+    marginBottom: "16px",
+  };
+
   return (
-    <main>
-      <p>
+    <main style={mainStyle}>
+      <p style={paragraphStyle}>
         Ariel is a young mermaid who lives under the sea with her father and
         sisters. She dreams of being independent and exploring the human world.
         After she saves a human prince, Eric, from a shipwreck, her father
@@ -9,7 +21,7 @@ function Content() {
         the surface.
       </p>
 
-      <p>
+      <p style={paragraphStyle}>
         Determined to be with Eric, Ariel makes a deal with the sea witch, Ursula,
         to have human legs for three days. If she receives true love’s kiss from
         Eric, she can remain human forever. If she fails, she will belong to
